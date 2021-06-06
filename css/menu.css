@@ -1,0 +1,98 @@
+.container{
+    /*font-family: 'DM Sans', sans-serif!important;*/
+    font-size: 17px;
+    font-weight: 500;
+}
+.pb-3, .py-3{
+    background: #33AA58;
+}
+nav.pb-3, nav.py-3{
+    padding: 2px 0px 8px 10px!important;
+	top: 32px;
+    box-shadow: 0px 4px 4px 3px rgba(14, 155, 28, 0.25);
+}
+.cab{
+	display: flex!important;
+    justify-content: flex-start!important;
+    align-items: center!important;
+	margin-right: 0!important;
+}
+.navbar {
+    transition: all 0.4s;
+    padding: 0;
+}
+.navbar .nav-link {
+    color: black;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar .navbar-brand {
+    color: #fff;
+}
+
+/* Change navbar styling on scroll */
+.navbar.active {
+    background: rgba(27, 27, 58, 0.212);
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.navbar.active .nav-link {
+    color: #555;
+}
+
+.nav-item:hover a{
+    transition:0.2s;
+    color: rgb(22, 156, 56)!important;
+}
+
+.logo{
+	margin-top: 10px;
+    margin-left: 20px;
+}
+.navbar.active .nav-link:hover,
+.navbar.active .nav-link:focus {
+    color: #555;
+    text-decoration: none;
+}
+
+.navbar.active .navbar-brand {
+    color: #555;
+}
+
+.navbar-expand-lg .navbar-nav{
+	margin-top: 5px;
+    padding-right: 10px;
+}
+/* Change navbar styling on small viewports */
+@media (max-width: 991.98px) {
+    .navbar .navbar-brand, .navbar .nav-link {
+        color: white!important;
+    }
+	.navbar-expand-lg>.container, .navbar-expand-lg>.container-fluid {
+		margin-left: 0!important;
+	}
+	
+    .fa-navicon:before, .fa-reorder:before, .fa-bars:before{
+        color: white;
+    }
+	.navbar-toggler{
+		position: absolute;
+		top: 20px;
+	}
+    .logo{
+        margin-left: 0px;
+		margin-top: 10px;
+		margin-right: 13px;
+		margin: 15px 13px 15px 0px;
+		
+		position: relative;
+		left: 0;
+    }
+}

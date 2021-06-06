@@ -1,0 +1,80 @@
+h3 {
+	margin:5px 0; 
+}
+
+.sliderContainer {
+	  position: relative;
+	  margin-left: -50px;
+}
+
+.slider {
+	  width: 100%;
+	  margin: 30px 50px 50px;
+}
+.slick-slide {
+	background: #4347A1;
+	color: white;
+	padding: 80px 0 120px;
+	font-size: 30px;
+	font-family: 'Chivo', sans-serif;
+	text-align: center;
+}
+.slick-list{
+	margin: 0!important;
+	top: 0!important;
+    height: 32px;
+	width:100%;
+	position: fixed;
+}
+.divslide{
+	margin-top: -75px!important;
+    display: flex!important;
+    justify-content: center;
+    font-size: 15px;
+}
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+}
+
+.slick-dots {
+  bottom: -30px;
+}
+
+.slick-slide:nth-child(odd) {
+  background: #e84a69;
+}
+
+.progressBarContainer {
+  position: absolute;
+  bottom: 20px;
+  width:300px;
+  left:150px;
+}
+
+.progressBarContainer div {
+  display: block;
+  width: 30%;
+  padding: 0;
+  cursor: pointer;
+  margin-right: 5%;
+  float: left;
+  color: white;
+}
+
+.progressBarContainer div:last-child {
+  margin-right: 0;
+}
+
+.progressBarContainer div span.progressBar {
+  width: 100%;
+  height: 4px;
+  background-color: rgba(255, 255, 255, 0.4);
+  display: block;
+}
+
+.progressBarContainer div span.progressBar .inProgress {
+  background-color: rgba(255, 255, 255, 1);
+  width: 0%;
+  height: 4px;
+}
